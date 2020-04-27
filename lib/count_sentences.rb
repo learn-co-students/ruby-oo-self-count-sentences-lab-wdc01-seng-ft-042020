@@ -19,5 +19,11 @@ class String
       str.end_with?("!", "?", ".")
     end
     sen.count
+  
+    #self.split(/\.|\?|\!/).delete_if {|w| w.size < 2}.size
+  #binding.pry
+  
   end
+
+
 end
